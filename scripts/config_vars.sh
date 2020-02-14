@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SERVICE_NAME=clojure-nyc-website
-SERVICE_VERSION=v0.5
+SERVICE_VERSION=v0.7
 IMAGE_REPO=gcr.io/luchini-nyc
 
 # --------

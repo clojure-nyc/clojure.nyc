@@ -5,7 +5,7 @@ metadata:
   labels:
     app: clojure-nyc-website
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: clojure-nyc-website
@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: clojure-nyc-website
-        image: gcr.io/luchini-nyc/clojure-nyc-website:v0.5
+        image: gcr.io/luchini-nyc/clojure-nyc-website:v0.7
         ports:
         - containerPort: 80
-        - containerPort: 443
