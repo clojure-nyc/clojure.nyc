@@ -9,7 +9,6 @@ spec:
   tls:
     - hosts:
         - clojure.nyc
-        - www.clojure.nyc
       secretName: clojure-nyc-tls
   rules:
     - host: clojure.nyc
